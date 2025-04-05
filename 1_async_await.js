@@ -1,8 +1,8 @@
 //1. Basic Promise Handling
-// Write a function `getUserName()` that returns a promise. The promise should resolve 
-// with `"John Doe"` after 2 seconds. Call this function and log the result using:  
-//    - `.then()` and `.catch()`
-//    - `async/await`
+// Write a function getUserName() that returns a promise. The promise should resolve 
+// with "John Doe" after 2 seconds. Call this function and log the result using:  
+//    - .then() and .catch()
+//    - async/await
 
 // 1. Basic Promise Handling
 function getUserName() {
