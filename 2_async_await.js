@@ -1,12 +1,11 @@
 
 //2. Simulating API Calls
-// Write a function `fetchUserData(userId)` that simulates fetching user data. If the `userId` is 1, return:  
-// ```json
+// Write a function fetchUserData(userId) that simulates fetching user data. If the userId is 1, return:  
+// json
 // { "id": 1, "name": "Alice", "age": 25 }
-// ```
-// Otherwise, reject the promise with `"User not found"` after 3 seconds.  
-// Use both `.then().catch()` and `async/await` to handle the promise.
-// / 2️⃣ Simulating API Calls
+// Otherwise, reject the promise with "User not found" after 3 seconds.  
+// Use both .then().catch() and async/await to handle the promise.
+// 2 Simulating API Calls
 function fetchUserData(userId) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
