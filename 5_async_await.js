@@ -1,10 +1,10 @@
 
-// # 5️⃣ Chaining Promises
-// Write a function `orderPizza()` that returns a promise resolving to `"Pizza ordered"`.  
-// Then chain another function `makePizza()` that returns `"Pizza is being made"`.  
-// Finally, add a function `deliverPizza()` that returns `"Pizza delivered"`.  
-// Handle this using both `.then()` chaining and `async/await`.
-// / 5️⃣ Chaining Promises
+// 5. Chaining Promises
+// Write a function orderPizza() that returns a promise resolving to "Pizza ordered".  
+// Then chain another function makePizza() that returns "Pizza is being made".  
+// Finally, add a function deliverPizza() that returns "Pizza delivered".  
+// Handle this using both .then() chaining and async/await.
+// 5. Chaining Promises
 function orderPizza() {
     return Promise.resolve("Pizza ordered");
 }
